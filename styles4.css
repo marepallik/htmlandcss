@@ -1,0 +1,37 @@
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color:lightpink;
+    padding: 10px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color:lightseagreen;
+    padding: 10px 20px;
+}
+#navbar li a:hover {
+    background-color: lightcyan;
+}
+
+  

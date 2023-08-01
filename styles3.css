@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+}
+
+.para1 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    margin: 0;
+}
+
+.para2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0;
+}
